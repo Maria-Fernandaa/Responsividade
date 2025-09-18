@@ -1,0 +1,85 @@
+* {
+    margin: 0 auto;
+}
+
+main {
+    position: relative;
+    width: 80%;
+    background-color: rgb(59, 5, 16);
+    height: 1000px;
+    /* auto*/
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(60, 255, 0);
+}
+
+#a {
+    width: 80%;
+    height: 300px;
+    background-color: rgb(255, 0, 179);
+    float: left;
+}
+
+aside {
+    width: 20%;
+    height: 700px;
+    background-color: rgb(73, 45, 65);
+    float: right;
+}
+
+#b {
+    width: 40%;
+    height: 200px;
+    background-color: rgb(0, 217, 255);
+    float: left;
+}
+
+#c {
+    width: 40%;
+    height: 200px;
+    background-color: rgb(255, 251, 0);
+    float: left;
+}
+
+#d {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(44, 97, 9);
+    float: left;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 155, 5);
+    float: left;
+}
+/*responsividade - mínimo de tela em 600px*/
+@media only screen and (max-width: 600px) {
+    aside {
+        display: none;
+    }
+
+    /*display none é para não aparecer*/
+    #a { width: 100%; }
+    #b {width: 100%;}
+    #c {width: 100%;}
+    #d {  width: 100%;}
+}
+/*orientação de tela
+ladscape-paisagem
+portrait-retrato*/
+
+@media only screen and (orientation: portrait){
+    body{ background-color: rgb(0, 0, 0);}
+
+}

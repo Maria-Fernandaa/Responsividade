@@ -1,2 +1,2 @@
 # Responsividade
-projeto de Responsividade
+Projeto para introdução de Responsividade
